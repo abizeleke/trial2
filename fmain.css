@@ -1,0 +1,420 @@
+
+.whitebar{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 470px;
+    min-width: 470px;
+    height: 609px;
+    background:  rgb(241, 240, 240);
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: auto; 
+}
+::-webkit-scrollbar{
+    visibility: visible;
+}
+.post-area{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(246, 246, 248);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.text-upload{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(250, 247, 247);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.text-upload img{
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+.text-upload input{
+    width: 100%;
+    height: 40px;
+    background: rgb(240, 239, 239);
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 15px;
+}
+.upload-area{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250, 246, 246);
+    padding: 10px 10px 10px 10px ;
+}
+.upload-area a img{
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+}
+.upload-area a{
+    width: 200px;
+    display: flex;
+    align-items: center; 
+    border-radius: 8px;
+    padding: 5px 5px 5px 10px; 
+    background-color: white; 
+    font-size: 14px;
+    color: rgb(71, 70, 70); 
+}
+.upload-area a:hover{
+    background-color: rgb(221, 209, 209);
+    border: none;
+}
+
+.create-room{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background: white;
+    border-radius: 9px;
+    padding: 10px 0px 10px 20px;
+
+}
+.create-room button{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid rgb(241, 240, 240);
+    cursor: pointer;
+}
+.create-room button:hover{
+    background-color: rgb(241, 240, 240);
+}
+.create-room img{
+    width: 25px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.post1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.post1b{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+.post1b .p1{
+    font-weight: 600;
+    font-size: 15.5px;
+}
+.post1b .p2{
+    
+    font-size: 13px;
+    color: rgb(41, 41, 41);
+}
+.post1 img{
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+.post1c{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    height: 40px;
+}
+.post1c img{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+
+.post2{
+    width: 100%;
+    border: 1px solid rgb(255, 251, 251);
+    background-color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+.post2 p{
+    font-size: 18px;
+}
+.post3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    border: 1px solid gray;
+    background-color: rgb(254, 255, 253);
+}
+.post3 img{
+    width: 100%;
+    height: 100%;
+}
+.post3 .img1{
+    width: 50%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.post4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(254, 255, 255);
+    width: 100%px;
+    margin: 0px 0px 0px 10px;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    border-radius: 5px;   
+}
+.post4 span{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.post4 img{
+    width: 20px;
+    margin-right: 5px;
+}
+.post5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: rgb(253, 255, 251);
+}
+.post5 span{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+.post5 span a{
+    display: flex;
+    align-items: center;
+    color: rgb(39, 38, 38);
+}
+.post5 span img{
+    width: 20px;
+    margin-right: 10px;
+}
+.post5 div span img{
+    width: 25px;
+}
+.flexing{
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    min-width: 0px;
+    height: 609px;
+    background-color:  rgb(240, 239, 239);
+}
+.peoples{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;  
+    background-color: rgb(255, 255, 255);
+    padding: 10px 5px 10px 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+}
+#div1{
+    display: flex;
+}
+#div2{
+    margin-top: 5px;
+    display: none;
+}
+#div3{
+    margin-top: 5px;
+    display: none;
+}
+#people1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(231, 229, 229);
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+#people1 span img{
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+}
+#people1 span p{
+    margin-top: 2px;
+}
+#people1 span button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 26px;
+    border: none;
+    background-color: rgb(46, 115, 219);
+    color: white;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+#people1 span button img{
+    width: 20px;
+    height: 20px;
+}
+.peoples button:hover{
+    cursor: pointer;
+}
+#people2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(231, 229, 229);
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+#people2 span img{
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+}
+#people2 span p{
+    margin-top: 2px;
+}
+#people2 span button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 26px;
+    border: none;
+    background-color: rgb(46, 115, 219);
+    color: white;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+#people2 span button img{
+    width: 20px;
+    height: 20px;
+}
+#people3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(231, 229, 229);
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+#people3 span img{
+    width: 120px;
+    height: 130px;
+    border-radius: 5px;
+}
+#people2 span p{
+    margin-top: 2px;
+}
+#people3 span button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 26px;
+    border: none;
+    background-color: rgb(46, 115, 219);
+    color: white;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+#people3 span button img{
+    width: 20px;
+    height: 20px;
+}
+.peoples .seeall{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+    border: none;
+}
+.peoples .seeall:hover{
+    background: rgb(223, 219, 219);
+}
+.peoples .seeall:focus{
+    border: none;
+}
+.peoples p{
+    margin: 0px 0px 6px 10px;
+    font-size: 15px;
+    color: rgb(46, 44, 44);
+}
+.video-post .post3{
+    background-color: black;
+}
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.loading p{
+    font-size: 25px;
+    color: rgb(9, 79, 170);
+}
+@media(max-width:655px){
+    .navig2{
+        display: none;
+    }
+    
+    .search{       
+        border-top-right-radius: 22px;
+        border-bottom-right-radius: 22px;
+    }
+    .menu{
+        display: inline;
+    }
+}
+
+

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook clone</title>
+    <link rel="stylesheet" href="fsnavig.css">
+    <link rel="stylesheet" href="fnavig.css">
+    <link rel="stylesheet" href="fmain.css">
+    <link rel="stylesheet" href="ffocus.css">
+    
+</head>
+<body>
+    
+<!--navigation bar-->
+    <div class="navigbar">
+<!--navig 1-->
+        <div id="navig1" class="navig1">
+            <img class="logo" src="icons/facebook (1).png" alt="">
+            <button onclick="se()" id="search" class="search"><img src="icons/search.png" alt=""></button>
+            <input id="search-bar" type="search" placeholder="Search Facebook">
+            <button class="menu" onclick="tt()"><img src="icons/menu.png" alt=""></button>
+        </div>
+<!--navig 2-->
+        <div class="navig2">
+            <a href="#"><img id="resize" src="icons/house-solid.svg" alt=""></a>
+            <a href="#"><img id="resize" src="icons/video.png" alt=""></a>
+            <a href="#"><img id="resize" src="icons/marketplace.png" alt=""></a>
+            <a href="#"><img src="icons/people.png" alt=""></a>
+            <a href="#"><img id="resize1" src="icons/gamepad.png" alt=""></a>
+        </div>
+<!--navig 3-->
+        <div class="navig3">
+            <button onclick="k1()" >
+                <img src="icons/application.png" alt="">
+            </button>
+            <button onclick="k2()" >
+                <img src="icons/messenger.png" alt="">
+            </button>
+            <button onclick="k3()" >
+                <img src="icons/bell.png" alt="">
+            </button>
+            <button onclick="k4()" >
+                <img src="icons/user.png" alt="">
+            </button>
+        </div>
+    </div>
+<!--maincontainer sidebar, whitebar & flexing-->
+    <div class="main-container">
+<!--sidebar-->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-contents">
+                <a href="#"><img class="pp" src="image/pexels-abiy-fikru-15784951.jpg" alt="">Full Name</a>
+            </div>
+            <div class="sidebar-contents">
+                
+                <a href="#"><img src="icons/friends.png" alt="">Friends</a>
+            </div>
+            <div class="sidebar-contents">
+                <a href="#"><img src="icons/social-media.png" alt="">Feeds(most recent)</a>
+            </div>
+            <div class="sidebar-contents">
+                 <a href="#"><img src="icons/group.png" alt="">Groups</a>
+            </div>
+            <div class="sidebar-contents">
+                <a href="#"><img src="icons/online-store.png" alt="">Market place</a>
+            </div>
+            <div class="sidebar-contents"> 
+                <a href="#"><img src="icons/facebook (2).png" alt="">Watch</a>
+            </div>
+            <div class="sidebar-contents">
+                <a href="#"><img src="icons/wall-clock.png" alt="">Memories</a>
+            </div>
+            <div class="sidebar-contents">
+                <a href="#"><img src="icons/video-player.png" alt="">Saved</a>
+            </div>
+            <div class="sidebar-contents">  
+                <a href="#"><img src="icons/flag.png" alt="">Pages</a>
+            </div>
+            <div class="sidebar-contents"> 
+                <a href="#"><img src="icons/calendar.png" alt="">Events</a>
+            </div>
+            <div class="sidebar-contents">
+                <a href="#"><img src="icons/graph-bar.png" alt="">Ads manager</a>
+            </div>
+          
+    </div>
+<!--whitebar-->
+    <div class="whitebar">
+        <div class="post-area">
+             <div class="text-upload">
+            <img src="image/pexels-abiy-fikru-15784951.jpg" alt="">
+            <input type="text" placeholder="What is on your mind, User?">
+        </div>
+        <div class="upload-area">
+            <a href="#"><img src="icons/video-camera.png" alt="">Live video</a>
+            <a href="#"><img src="icons/image.png" alt="">photos/video</a>
+            <a href="#"><img src="icons/sad.png" alt="">Feeling activity</a>
+        </div>
+        </div>
+        <div class="create-room">
+                <button><img src="icons/add-video.png" alt=""> Create room</button>
+        </div>
+<!--post 1-->
+        <div class="post">
+                <div class="post1">
+                    <span class="post1a">
+                        <img src="image/pexels-abiy-fikru-16975248.jpg" alt="">
+                    </span>
+                    <span class="post1b">
+                        <p class="p1">User Name</p>
+                        <p class="p2">Yesterday at 10:13am</p>
+                    </span>
+                    <span class="post1c">
+                        <img src="icons/more.png" alt="">
+                        <img src="icons/close.png" alt="">
+                    </span>
+                    
+                </div>
+                <div class="post2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum beatae facilis, magnam tempora dolor est natus cupiditate unde atque aliquid? Iure rem magni.</p>
+                </div>
+                <div class="post3">
+                    <img src="image/pexels-abiy-fikru-17300120.jpg" alt="">
+                </div>
+                <div class="post4">
+                        <span>
+                            <img src="icons/like.png" alt="">User1 and 12k others
+                        </span>
+                        <span>
+                            76<img src="icons/comment.png" alt="">15<img src="icons/share.png" alt="">
+                        </span>
+                </div>
+                <div class="post5">
+                    <div>
+                       
+                    </div>
+                    <span>
+                        <a href=""><img src="icons/like (2).png" alt="">Like</a>
+                    </span>
+                    <span> 
+                        <a href=""><img src="icons/comment.png" alt="">Comment</a>
+                    </span>
+                    <span>
+                        <a href=""><img src="icons/share.png" alt="">Share</a>
+                    </span>
+                </div>
+           </div>
+<!--post 2-->
+           <div class="post">
+            <div class="post1">
+                <span class="post1a">
+                    <img src="image/pexels-ali-pazani-2811089.jpg" alt="">
+                </span>
+                <span class="post1b">
+                    <p class="p1">User Name</p>
+                    <p class="p2">Yesterday at 05:13am</p>
+                </span>
+                <span class="post1c">
+                    <img src="icons/more.png" alt="">
+                        <img src="icons/close.png" alt="">
+                </span>
+                
+            </div>
+            <div class="post2">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="post3">
+                <img class="img1" src="image/pexels-caique-nascimento-1256889.jpg" alt="">
+                <img class="img1" src="image/pexels-gift-habeshaw-14902904.jpg" alt="">
+            </div>
+            <div class="post4">
+                    <span>
+                        <img src="icons/like.png" alt="">User3 and 50k others
+                    </span>
+                    <span>
+                        112<img src="icons/comment.png" alt="">20<img src="icons/share.png" alt="">
+                    </span>
+            </div>
+            <div class="post5">
+                <div>
+                   
+                </div>
+                <span>
+                    <a href=""><img src="icons/like (2).png" alt="">Like</a>
+                </span>
+                <span> 
+                    <a href=""><img src="icons/comment.png" alt="">Comment</a>
+                </span>
+                <span>
+                    <a href=""><img src="icons/share.png" alt="">Share</a>
+                </span>
+            </div>
+       </div>
+
+ <!--peoples-->     
+       <div class="peoples">
+        <p>People you may know</p>
+        <div id="div1">
+            <div class="people" id="people1">
+                <span>
+                    <img src="image/pexels-gift-habeshaw-15020799.jpg" alt="">
+                </span>
+                <span><p>User Name</p></span>
+                <span>
+                    <button><img src="icons/add-user (1).png" alt="">Add friend</button>
+                </span>
+            </div>
+            <div class="people" id="people2">
+                <span>
+                <img src="image/pexels-jonaorle-3828245.jpg" alt="">
+                </span>
+                <span>
+                    <p>User Name</p>
+                </span>
+                <span>
+                    <button><img src="icons/add-user (1).png" alt="">Add friend</button>
+                </span>
+            </div>
+            <div class="people" id="people3">
+                <span>
+                    <img src="image/pexels-nemuel-sereti-5096897.jpg" alt="">
+                    </span>
+                    <span>
+                        <p>User Name</p>
+                    </span>
+                    <span>
+                        <button><img src="icons/add-user (1).png" alt="">Add friend</button>
+                    </span>
+            </div>
+        </div>
+        <div id="div2">
+            <div class="people" id="people1">
+                <span>
+                    <img src="image/pexels-tomaz-barcellos-1980984.jpg" alt="">
+                </span>
+                <span><p>User Name</p></span>
+                <span>
+                    <button><img src="icons/add-user (1).png" alt="">Add friend</button>
+                </span>
+            </div>
+            <div class="people" id="people2">
+                <span>
+                <img src="image/pexels-yuri-manei-2272853.jpg" alt="">
+                </span>
+                <span>
+                    <p>User Name</p>
+                </span>
+                <span>
+                    <button><img src="icons/add-user (1).png" alt="">Add friend</button>
+                </span>
+            </div>
+            <div class="people" id="people3">
+                <span>
+                    <img src="image/pexels-nix-photo-2101894.jpg" alt="">
+                    </span>
+                    <span>
+                        <p>User Name</p>
+                    </span>
+                    <span>
+                        <button><img src="icons/add-user (1).png" alt="">Add friend</button>
+                    </span>
+            </div>
+        </div>
+        <button class="seeall" onclick="show()">see all</button>
+       </div> 
+<!--post 3--> 
+       <div class="post">
+        <div class="post1">
+            <span class="post1a">
+                <img src="image/pexels-oleksandr-pidvalnyi-2017443.jpg" alt="">
+            </span>
+            <span class="post1b">
+                <p class="p1">User Name</p>
+                <p class="p2">Yesterday at 05:13am</p>
+            </span>
+            <span class="post1c">
+                <img src="icons/more.png" alt="">
+                <img src="icons/close.png" alt="">
+            </span>
+            
+        </div>
+        <div class="post2">
+        </div>
+        <div class="post3">
+            <img src="image/pexels-pixabay-89790.jpg" alt="">
+        </div>
+        <div class="post4">
+                <span>
+                    <img src="icons/like.png" alt="">User3 and 13k others
+                </span>
+                <span>
+                    72<img src="icons/comment.png" alt="">7<img src="icons/share.png" alt="">
+                </span>
+        </div>
+        <div class="post5">
+            <div>
+               
+            </div>
+            <span>
+                <a href=""><img src="icons/like (2).png" alt="">Like</a>
+            </span>
+            <span> 
+                <a href=""><img src="icons/comment.png" alt="">Comment</a>
+            </span>
+            <span>
+                <a href=""><img src="icons/share.png" alt="">Share</a>
+            </span>
+        </div>
+    </div>
+
+<!--friend request-->
+    <div class="peoples">
+        <p>People you may know</p>
+        <div id="div1">
+            <div class="people" id="people1">
+                <span>
+                    <img src="image/pexels-yuri-manei-2272853.jpg" alt="">
+                </span>
+                <span><p>User Name</p></span>
+                <span>
+                    <button>Confirm</button>
+                </span>
+            </div>
+            <div class="people" id="people2">
+                <span>
+                <img src="image/pexels-wellington-cunha-2479883.jpg" alt="">
+                </span>
+                <span>
+                    <p>User Name</p>
+                </span>
+                <span>
+                    <button>Confirm</button>
+                </span>
+            </div>
+            <div class="people" id="people3">
+                <span>
+                    <img src="image/pexels-tomaz-barcellos-1980984.jpg" alt="">
+                    </span>
+                    <span>
+                        <p>User Name</p>
+                    </span>
+                    <span>
+                        <button>Confirm</button>
+                    </span>
+            </div>
+        </div>
+        <div id="div3">
+            <div class="people" id="people1">
+                <span>
+                    <img src="image/pexels-rodolfo-clix-922511.jpg" alt="">
+                </span>
+                <span><p>User Name</p></span>
+                <span>
+                    <button>Confirm</button>
+                </span>
+            </div>
+            <div class="people" id="people2">
+                <span>
+                <img src="image/pexels-oleksandr-pidvalnyi-2017443.jpg" alt="">
+                </span>
+                <span>
+                    <p>User Name</p>
+                </span>
+                <span>
+                    <button>Confirm</button>
+                </span>
+            </div>
+            <div class="people" id="people3">
+                <span>
+                    <img src="image/pexels-jennifer-enujiugha-1125353.jpg" alt="">
+                    </span>
+                    <span>
+                        <p>User Name</p>
+                    </span>
+                    <span>
+                        <button>Confirm</button>
+                    </span>
+            </div>
+        </div>
+        <button class="seeall" onclick="show2()">see all</button>
+       </div> 
+
+<!--post 4-->
+    <div class="video-post">
+        <div class="post">
+            <div class="post1">
+                <span class="post1a">
+                    <img src="image/pexels-jonaorle-3828245.jpg" alt="">
+                </span>
+                <span class="post1b">
+                    <p class="p1">User Name</p>
+                    <p class="p2">Yesterday at 10:13am</p>
+                </span>
+                <span class="post1c">
+                    <img src="icons/more.png" alt="">
+                    <img src="icons/close.png" alt="">
+                </span>
+                
+            </div>
+            <div class="post2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="post3">
+                <img src="image/pexels-dainis-graveris-3773662.jpg" alt="">
+            </div>
+            <div class="post4">
+                    <span>
+                        <img src="icons/like.png" alt="">User1 and 12k others
+                    </span>
+                    <span>
+                        76<img src="icons/comment.png" alt="">15<img src="icons/share.png" alt="">
+                    </span>
+            </div>
+            <div class="post5">
+                <div>
+                   
+                </div>
+                <span>
+                    <a href=""><img src="icons/like (2).png" alt="">Like</a>
+                </span>
+                <span> 
+                    <a href=""><img src="icons/comment.png" alt="">Comment</a>
+                </span>
+                <span>
+                    <a href=""><img src="icons/share.png" alt="">Share</a>
+                </span>
+            </div>
+        </div>
+    </div>
+<!--post 5-->
+    <div class="post">
+        <div class="post1">
+            <span class="post1a">
+                <img src="image/pexels-nix-photo-2101894.jpg" alt="">
+            </span>
+            <span class="post1b">
+                <p class="p1">User Name</p>
+                <p class="p2">Yesterday at 10:13am</p>
+            </span>
+            <span class="post1c">
+                <img src="icons/more.png" alt="">
+                <img src="icons/close.png" alt="">
+            </span>
+            
+        </div>
+        <div class="post2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="post3">
+           <img src="image/pexels-gift-habeshaw-15020799.jpg" alt="">
+        </div>
+        <div class="post4">
+                <span>
+                    <img src="icons/like.png" alt="">User1 and 12k others
+                </span>
+                <span>
+                    76<img src="icons/comment.png" alt="">15<img src="icons/share.png" alt="">
+                </span>
+        </div>
+        <div class="post5">
+            <div>
+               
+            </div>
+            <span>
+                <a href=""><img src="icons/like (2).png" alt="">Like</a>
+            </span>
+            <span> 
+                <a href=""><img src="icons/comment.png" alt="">Comment</a>
+            </span>
+            <span>
+                <a href=""><img src="icons/share.png" alt="">Share</a>
+            </span>
+        </div>
+    </div>
+<!--loading-->
+    <div class="loading">
+        <p>Loading...</p>
+    </div>
+    </div>
+<!--flexing-->
+    <div id="flexing" class="flexing">
+
+        <div id="kk1" class="sub1">
+            <h1>Create</h1>
+            <div class="sub11">
+                <div class="sub11a">
+                    <img src="icons/write.png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Post</p><p class="p2">Share apost on Neews Feed.</p>
+                </div>
+            </div>
+            <div class="sub11">
+                 <div class="sub11a">
+                    <img src="icons/book.png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Story</p><p class="p2">Share a photo or write something.</p>
+                </div>
+            </div>
+            <div class="sub11">
+                <div class="sub11a">
+                    <img src="icons/video.png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Real</p><p class="p2">Share a reel.</p>
+                </div>
+            </div>
+            <div class="sub11">
+                <div class="sub11a">
+                    <img src="icons/video (1).png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Room</p><p class="p2">Video chat with anyone, on or off facebook without time limits.</p>
+                </div>
+            </div>
+            <div class="sub11">
+                <div class="sub11a">
+                    <img src="icons/facebook-page.png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Page</p><p class="p2">connect and share with customers or fans.</p>
+                </div>  
+            </div>
+            <div class="sub11">
+                <div class="sub11a">
+                    <img src="icons/megaphone.png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Ad</p><p class="p2">Advertise your business, brand or organization.</p>
+                </div>
+            </div>
+            <div class="sub11">
+                <div class="sub11a">
+                    <img src="icons/people.png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Group</p><p class="p2">connect with peoples who share your interest.</p>
+                </div>
+            </div>
+            <div class="sub11">
+                <div class="sub11a">
+                    <img src="icons/marketplace.png" alt="">
+                </div>
+                <div class="sub11b">
+                    <p class="p1">Events</p><p class="p2">Share apost on Neews Feed.</p>
+                </div>
+            </div>
+        </div>
+            
+            <div id="kk2" class="sub2">
+                <div class="sub2icon">
+                    <span>
+                        <p>Chats</p>
+                    </span>
+                    <span class="chatsicon">
+                        <a href=""><img src="icons/more.png" alt=""></a>
+                        <a href=""><img src="icons/arrow.png" alt=""></a>
+                        <a href=""><img src="icons/video (1).png" alt=""></a>
+                        <a href=""><img src="icons/write.png" alt=""></a>
+                    </span>
+                </div>
+                <div class="sub2-search">
+                    <input type="search" placeholder="Search Messenger">
+                </div>
+                <div class="sub22">
+                    <button>Inbox</button>
+                    <p>Communities</p>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-abiy-fikru-17300120.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1">User 1</p><p class="p2">you are now connected on messenger wit...2hr</p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-ebuka-onyewuchi-5449172.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1">User 2</p><p class="p2">Hi selam new  .1d</p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-oleksandr-pidvalnyi-2017443.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1">User 3</p><p class="p2">you are now connected on messenger wit...2hr.</p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-caique-nascimento-1256889.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1">User</p><p class="p2">i love you. 1w</p>
+                    </div>
+                </div>
+                <div class="sub2-seemore">
+                    <button>See More</button>
+                </div>
+            </div>
+
+            <div id="kk3" class="sub3">
+                <div class="sub2icon">
+                    <span>
+                        <p>Notifications</p>
+                    </span>
+                    <span class="chatsicon">
+                        <a href=""><img src="icons/application.png" alt=""></a>
+                    </span>
+                </div>
+                <div class="sub22">
+                    <button>All</button>
+                    <p>Unread</p>
+                </div>
+                <div class="sub2-new">
+                    <span><p>New</p></span>
+                    <button>See all</button>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-abiy-fikru-15784951.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>User 2</b> and 2 other friends had birthday on june 13.</p><p class="p2">a day ago</p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-ali-pazani-2811089.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>User 3</b> accepted your friend request.</p><p class="p2">a day ago</p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-gift-habeshaw-14902904.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1">You have new friend suggestion <b>User 4</b></p><p class="p2">23 hours ago</p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="image/pexels-rodolfo-clix-922511.jpg" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>User g</b> and User7 have birthdays today.wish them the best!</p><p class="p2">3 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="kk4"  class="sub4">
+                <div class="sub2icon">
+                    <div class="sidebar-contents">
+                        <a href="#"><img class="pp" src="image/pexels-tomaz-barcellos-1980984.jpg" alt="">Full Nmae</a>
+                    </div>
+                    <div class="see-all-profiles">
+                        <a href="">See all profiles</a>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="icons/settings.png" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>Setting & privacy</b></p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="icons/help-web-button.png" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>Help & support</b></p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="icons/moon.png" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>Display & accessibility</b></p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="icons/feedback.png" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>Give feedback</b></p>
+                    </div>
+                </div>
+                <div class="sub11">
+                    <div class="sub11a"><img src="icons/logout.png" alt=""></div>
+                    <div class="sub11b">
+                        <p class="p1"><b>Log out</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+   
+ </div>
+ <script src="fmain.js"></script>
+</body>
+</html>

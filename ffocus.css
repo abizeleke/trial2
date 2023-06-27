@@ -1,0 +1,268 @@
+.flexing{
+    display: flex;
+    flex: 1;
+    align-items: end;
+    flex-direction: column;
+    min-width: 0px;
+    height: 609px;
+    background: rgb(255, 255, 255);
+   
+}
+.sub1{
+    display: none;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgb(58, 57, 57);
+    border-bottom-left-radius: 20px;
+    height: 355px;
+    overflow: auto;
+}
+.sub1 h1{
+    border-radius: 20px;
+    font-size: 27px;
+}
+.sub11{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+.sub11a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 219, 219);
+    width: 35px;
+    height: 35px;
+    border-radius:18px;
+}
+.sub11a img{
+    width: 20px;
+    height: 20px;
+}
+.sub11b{
+    margin-left: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.sub11b .p1{
+    font-weight: 550;
+}
+.sub11b .p2{
+    color: rgb(82, 80, 80);
+    font-size: 14px;
+}
+
+.sub2{
+    display: none;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgb(58, 57, 57);
+    border-bottom-left-radius: 20px;
+    height: 370px;
+    overflow: auto;
+}
+.sub2 .sub2icon{
+    display: flex;
+    flex-direction: row;
+}
+.sub2 .sub11a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+}
+.sub2 .sub2icon p{
+    font-size: 26px;
+    font-weight: 550;
+}
+.sub2 .chatsicon{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.sub2 .sub2icon a img{
+    width: 20px;
+    margin-left: 20px;
+}
+.sub22{
+    display: flex;
+    align-items: center;
+}
+.sub22 button{
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(226, 240, 245);
+    color: rgb(26, 141, 218);
+    font-weight: 550;
+}
+.sub22 p{
+    margin-left: 25px;
+    font-weight: 550;
+    color: rgb(41, 41, 41);
+}
+.sub2-search {
+    padding: 10px 20px 10px 0px;
+}
+.sub2-search input{
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 17px;
+    border: none;
+    background-color: rgb(222, 229, 231);
+    font-size: 16px;
+}
+::placeholder{
+    color: rgb(56, 56, 56);
+}
+.sub2-seemore{
+    padding: 10px;
+}
+.sub2-seemore button{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 86, 187);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sub3{
+    display: none;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgb(58, 57, 57);
+    border-bottom-left-radius: 20px;
+    height: 355px;
+    overflow: auto;
+}
+.sub3 .sub2icon{
+    display: flex;
+    flex-direction: row;
+}
+.sub3 .sub2icon p{
+    font-size: 26px;
+    font-weight: 550;
+}
+.sub3 .sub11a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+}
+.sub3 .chatsicon{
+    width: 300px;
+    height: 30px;
+    display: none;
+    align-items: center;
+    justify-content: end;
+}
+.sub3 .sub2icon a img{
+    width: 20px;
+    margin-left: 20px;
+}
+.sub22{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.sub2-new{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.sub2-new span p{
+    font-weight: 550;
+    color: rgb(22, 22, 22);
+    margin-left: 5px;
+    width: 310px;
+}
+.sub2-new button{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    color: rgb(20, 150, 224);
+    font-weight: 550;
+}
+.sub22 button{
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(226, 240, 245);
+    color: rgb(26, 141, 218);
+    font-weight: 550;
+}
+.sub22 p{
+    margin-left: 25px;
+    font-weight: 550;
+    color: rgb(41, 41, 41);
+}
+.sub2-search {
+    padding: 10px 20px 10px 0px;
+}
+.sub2-search input{
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 17px;
+    border: none;
+    background-color: rgb(222, 229, 231);
+    font-size: 16px;
+}
+.sub3 .sub11b .p1{
+    font-weight: 500;
+}
+.sub3 .sub11b .p2{
+    font-weight: 550;
+    color: rgb(68, 142, 238);
+}
+.sub4{
+    display: none;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 350px;
+    box-shadow: 1px 1px 10px rgb(58, 57, 57);
+    border-bottom-left-radius: 20px;
+    height: 360px;
+    overflow: auto;
+}
+.sub4 .sub2icon{
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(117, 114, 114);
+   
+}
+.sub4 .sidebar-contents{
+    border-bottom: 2px solid rgb(158, 152, 152);
+    padding: 5px 5px 5px 0px;
+    border-radius: 30px;
+}
+.sub4 .see-all-profiles{
+    margin-top:5px;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px 5px 5px 15px; 
+}   
+.sub4 .see-all-profiles a{
+    color: rgb(63, 95, 238);
+    font-weight: 550;
+}

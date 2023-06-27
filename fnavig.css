@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    background: rgb(173, 171, 169);
+}
+.navigbar{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 58px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(134, 124, 124);
+}
+.navig1{
+    display: flex;
+    flex: 1;
+    width: 100px;
+    min-width: 0px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+}
+.logo{
+    display: flex;
+    width: 48px;
+    height: 47px;
+    margin-left: 15px;
+    border-radius: 30px;
+    align-items: center;
+}
+.navig1 input{
+    display: flex;
+    flex: 1;
+    height: 43px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    background-color:   rgb(233, 230, 230);
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+    min-width: 0px;
+    width: 200px;
+    display: none;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 44px;
+    height: 43px;
+    background-color: rgb(233, 230, 230);
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: none;
+}
+.search img{
+    width: 20px;
+}
+.menu{
+    margin-left: 10px;
+    width: 44px;
+    height: 43px;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+.menu img{
+    margin-top:2px;
+    width: 30px;
+}
+.navig1 input::placeholder{
+    font-size: 15px;
+    padding-left: 10px;    
+}
+.navig2{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 700px;
+    min-width: 370px;
+    align-items: center;
+    padding: 0px 30px 0px 70px;
+    justify-content: space-between;
+}
+.navig2 a:hover{
+    background-color: rgb(253, 248, 248);
+    border-bottom: 3px solid rgb(50, 50, 161);
+
+}
+.navig2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    
+}
+.navig2 a img{
+    display: flex;
+    position: relative;
+    width: 32px;
+
+}
+#resize{
+    width: 26px;
+}
+#resize1{
+    width: 33px;
+}
+
+.navig3{
+    display: flex;
+    flex: 1;
+    background: white;
+    width: 300px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: end;
+}
+.navig3 button img{
+    width: 20px;
+}
+.main-container{
+  display: flex;
+}
+.navig3 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 227, 227);
+    padding: 2px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.navig3 button:hover{
+    background-color: rgb(164, 225, 240);
+
+}
