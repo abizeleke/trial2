@@ -1,10 +1,9 @@
 .flexing{
     display: flex;
-    flex: 1;
+    flex: 1.3;
     align-items: end;
     flex-direction: column;
-    min-width: 0px;
-    height: 609px;
+    height: 100%;
     background: rgb(255, 255, 255);
    
 }
@@ -13,7 +12,7 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    width: 400px;
+    width: 100%;
     box-shadow: 1px 1px 10px rgb(58, 57, 57);
     border-bottom-left-radius: 20px;
     height: 355px;
@@ -39,7 +38,7 @@
     background-color: rgb(221, 219, 219);
     width: 35px;
     height: 35px;
-    border-radius:18px;
+    border-radius:20px;
 }
 .sub11a img{
     width: 20px;
@@ -62,7 +61,7 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    width: 400px;
+    width: 100%;
     box-shadow: 1px 1px 10px rgb(58, 57, 57);
     border-bottom-left-radius: 20px;
     height: 370px;
@@ -82,15 +81,15 @@
     font-weight: 550;
 }
 .sub2 .chatsicon{
-    width: 300px;
     height: 30px;
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: end;
 }
 .sub2 .sub2icon a img{
     width: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .sub22{
     display: flex;
@@ -144,10 +143,10 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    width: 400px;
+    width: 100%;
     box-shadow: 1px 1px 10px rgb(58, 57, 57);
     border-bottom-left-radius: 20px;
-    height: 355px;
+    height: 395px;
     overflow: auto;
 }
 .sub3 .sub2icon{
@@ -164,9 +163,9 @@
     border-radius: 18px;
 }
 .sub3 .chatsicon{
-    width: 300px;
     height: 30px;
     display: none;
+    flex: 1;
     align-items: center;
     justify-content: end;
 }
@@ -183,14 +182,13 @@
     display: flex;
     align-items: center;
     width: 100%;
-    height: 30px;
     margin: 5px 0px 5px 0px;
 }
 .sub2-new span p{
     font-weight: 550;
     color: rgb(22, 22, 22);
     margin-left: 5px;
-    width: 310px;
+    width: 100%;
 }
 .sub2-new button{
     background-color: white;
@@ -238,14 +236,13 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    width: 350px;
+    width: 100%;
     box-shadow: 1px 1px 10px rgb(58, 57, 57);
     border-bottom-left-radius: 20px;
     height: 360px;
     overflow: auto;
 }
 .sub4 .sub2icon{
-    width: 300px;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 0px 5px rgb(117, 114, 114);
