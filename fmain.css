@@ -1,11 +1,13 @@
-
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
 .whitebar{
     display: flex;
     flex: 1;
     flex-direction: column;
     width: 470px;
-    min-width: 470px;
-    height: 609px;
     background:  rgb(241, 240, 240);
     padding-top: 10px;
     padding-left: 10px;
@@ -266,8 +268,6 @@
     width: 250px;
     height: 200px;
     background-color: rgb(231, 229, 229);
-    margin-right: 10px;
-    padding: 5px 5px 5px 5px;
     border-radius: 5px;
 }
 #people1 span img{
@@ -304,8 +304,6 @@
     width: 250px;
     height: 200px;
     background-color: rgb(231, 229, 229);
-    margin-right: 10px;
-    padding: 5px 5px 5px 5px;
     border-radius: 5px;
 }
 #people2 span img{
@@ -339,8 +337,6 @@
     width: 250px;
     height: 200px;
     background-color: rgb(231, 229, 229);
-    margin-right: 10px;
-    padding: 5px 5px 5px 5px;
     border-radius: 5px;
 }
 #people3 span img{
@@ -414,6 +410,15 @@
     }
     .menu{
         display: inline;
+    }
+    .main-container .flexing{
+        display: none;
+    }
+    .main-container .whitebar{
+        width: 100%;
+    }
+    .sidebar{
+        display: none;
     }
 }
 
