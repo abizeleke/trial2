@@ -26,10 +26,12 @@ function tt(){
     if(b==1){
         document.getElementById("sidebar").style.minWidth="0px";
         document.getElementById("div1").style.display="none";
+        document.getElementById("sidebar").style.display="none";
         
         return b=0;
     }
     else{
+        document.getElementById("sidebar").style.display="flex";
         document.getElementById("sidebar").style.minWidth="170px" ;
         document.getElementById("div1").style.display="none";
         
