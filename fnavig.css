@@ -7,6 +7,8 @@
 }
 body{
     background: rgb(173, 171, 169);
+    width: 100%;
+    height: 100vh;
 }
 .navigbar{
     display: flex;
@@ -15,6 +17,7 @@ body{
     height: 58px;
     background-color: white;
     box-shadow: 0px 0px 5px rgb(134, 124, 124);
+    overflow: visible;
 }
 .navig1{
     display: flex;
@@ -85,10 +88,9 @@ body{
 .navig2{
     display: flex;
     background: rgb(255, 255, 255);
-    width: 700px;
+    width: 500px;
     min-width: 370px;
     align-items: center;
-    padding: 0px 30px 0px 70px;
     justify-content: space-between;
 }
 .navig2 a:hover{
@@ -96,7 +98,7 @@ body{
     border-bottom: 3px solid rgb(50, 50, 161);
 
 }
-.navig2 a{
+.navig2 button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,9 +106,10 @@ body{
     height: 40px;
     margin-right: 10px;
     border: none;
+    background-color: white;
     
 }
-.navig2 a img{
+.navig2 button img{
     display: flex;
     position: relative;
     width: 32px;
@@ -120,13 +123,33 @@ body{
 }
 
 .navig3{
-    display: flex;
-    flex: 1;
+    flex-direction: column;
+    flex: 1.3;
     background: white;
-    width: 300px;
-    padding-right: 20px;
+    padding-right: 5px;
+    align-items: end;
+    justify-content: center;
+}
+.navig3a{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: end;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.navig3b{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+    border-bottom-left-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    z-index: 300;
+    margin-top: 10px;
 }
 .navig3 button img{
     width: 20px;
